@@ -1,0 +1,210 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60418402
+P 5900 1300
+F 0 "J?" H 6008 1581 50  0000 C CNN
+F 1 "LED Strip 1" H 6008 1490 50  0000 C CNN
+F 2 "" H 5900 1300 50  0001 C CNN
+F 3 "~" H 5900 1300 50  0001 C CNN
+	1    5900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60419E68
+P 5900 1750
+F 0 "J?" H 6008 2031 50  0000 C CNN
+F 1 "LED Strip 2" H 6008 1940 50  0000 C CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "~" H 5900 1750 50  0001 C CNN
+	1    5900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60419E6E
+P 5900 2200
+F 0 "J?" H 6008 2481 50  0000 C CNN
+F 1 "LED Strip 3" H 6008 2390 50  0000 C CNN
+F 2 "" H 5900 2200 50  0001 C CNN
+F 3 "~" H 5900 2200 50  0001 C CNN
+	1    5900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60422C92
+P 5900 2650
+F 0 "J?" H 6008 2931 50  0000 C CNN
+F 1 "LED Strip 4" H 6008 2840 50  0000 C CNN
+F 2 "" H 5900 2650 50  0001 C CNN
+F 3 "~" H 5900 2650 50  0001 C CNN
+	1    5900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60422C98
+P 5900 3100
+F 0 "J?" H 6008 3381 50  0000 C CNN
+F 1 "LED Strip 5" H 6008 3290 50  0000 C CNN
+F 2 "" H 5900 3100 50  0001 C CNN
+F 3 "~" H 5900 3100 50  0001 C CNN
+	1    5900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60422C9E
+P 5900 3550
+F 0 "J?" H 6008 3831 50  0000 C CNN
+F 1 "LED Strip 6" H 6008 3740 50  0000 C CNN
+F 2 "" H 5900 3550 50  0001 C CNN
+F 3 "~" H 5900 3550 50  0001 C CNN
+	1    5900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60422CA4
+P 5900 4000
+F 0 "J?" H 6008 4281 50  0000 C CNN
+F 1 "LED Strip 7" H 6008 4190 50  0000 C CNN
+F 2 "" H 5900 4000 50  0001 C CNN
+F 3 "~" H 5900 4000 50  0001 C CNN
+	1    5900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427AE6
+P 5900 4450
+F 0 "J?" H 6008 4731 50  0000 C CNN
+F 1 "LED Strip 8" H 6008 4640 50  0000 C CNN
+F 2 "" H 5900 4450 50  0001 C CNN
+F 3 "~" H 5900 4450 50  0001 C CNN
+	1    5900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427AEC
+P 5900 4900
+F 0 "J?" H 6008 5181 50  0000 C CNN
+F 1 "LED Strip 9" H 6008 5090 50  0000 C CNN
+F 2 "" H 5900 4900 50  0001 C CNN
+F 3 "~" H 5900 4900 50  0001 C CNN
+	1    5900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427AF2
+P 5900 5350
+F 0 "J?" H 6008 5631 50  0000 C CNN
+F 1 "LED Strip A" H 6008 5540 50  0000 C CNN
+F 2 "" H 5900 5350 50  0001 C CNN
+F 3 "~" H 5900 5350 50  0001 C CNN
+	1    5900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427AF8
+P 5900 5800
+F 0 "J?" H 6008 6081 50  0000 C CNN
+F 1 "LED Strip B" H 6008 5990 50  0000 C CNN
+F 2 "" H 5900 5800 50  0001 C CNN
+F 3 "~" H 5900 5800 50  0001 C CNN
+	1    5900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427AFE
+P 5900 6250
+F 0 "J?" H 6008 6531 50  0000 C CNN
+F 1 "LED Strip C" H 6008 6440 50  0000 C CNN
+F 2 "" H 5900 6250 50  0001 C CNN
+F 3 "~" H 5900 6250 50  0001 C CNN
+	1    5900 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427B04
+P 5900 6700
+F 0 "J?" H 6008 6981 50  0000 C CNN
+F 1 "LED Strip D" H 6008 6890 50  0000 C CNN
+F 2 "" H 5900 6700 50  0001 C CNN
+F 3 "~" H 5900 6700 50  0001 C CNN
+	1    5900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427B0A
+P 5900 7150
+F 0 "J?" H 6008 7431 50  0000 C CNN
+F 1 "LED Strip E" H 6008 7340 50  0000 C CNN
+F 2 "" H 5900 7150 50  0001 C CNN
+F 3 "~" H 5900 7150 50  0001 C CNN
+	1    5900 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60427B10
+P 5900 7600
+F 0 "J?" H 6008 7881 50  0000 C CNN
+F 1 "LED Strip F" H 6008 7790 50  0000 C CNN
+F 2 "" H 5900 7600 50  0001 C CNN
+F 3 "~" H 5900 7600 50  0001 C CNN
+	1    5900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6042E779
+P 6650 950
+F 0 "#PWR?" H 6650 700 50  0001 C CNN
+F 1 "GND" H 6655 777 50  0000 C CNN
+F 2 "" H 6650 950 50  0001 C CNN
+F 3 "" H 6650 950 50  0001 C CNN
+	1    6650 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1000 6500 1050
+Wire Wire Line
+	6300 1000 6500 1000
+Wire Wire Line
+	6050 950  6100 950 
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60414DFF
+P 5900 850
+F 0 "J?" H 6008 1131 50  0000 C CNN
+F 1 "LED Strip 0" H 6008 1040 50  0000 C CNN
+F 2 "" H 5900 850 50  0001 C CNN
+F 3 "~" H 5900 850 50  0001 C CNN
+	1    5900 850 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7400 1150
+$EndSCHEMATC
