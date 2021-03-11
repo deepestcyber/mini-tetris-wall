@@ -1,4 +1,4 @@
-18695109078706176
+18698338938160176
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -81711,6 +81711,13 @@ varistor SIOV
 2
 2
 display
+Arduino_Mega2560_Shield_redux
+https://store.arduino.cc/arduino-mega-2560-rev3
+
+0
+66
+65
+display
 Samtec_HLE-103-02-xxx-DV-LC_2x03_P2.54mm_Horizontal
 Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-103-02-xxx-DV-LC, 3 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xxx-dv-xx-xx-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-dv-footprint.pdf), generated with kicad-footprint-generator
 connector Samtec HLE top entry
@@ -81723,4 +81730,11 @@ Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-103-02-
 connector Samtec HLE top entry
 0
 3
+3
+display
+strip_connector_hole
+Samtec HLE .100" Tiger Beam Cost-effective Single Beam Socket Strip, HLE-103-02-xxx-DV-LC, 3 Pins per row (http://suddendocs.samtec.com/prints/hle-1xx-02-xxx-dv-xx-xx-xx-mkt.pdf, http://suddendocs.samtec.com/prints/hle-dv-footprint.pdf), generated with kicad-footprint-generator
+connector Samtec HLE top entry
+0
+4
 3

@@ -14,14 +14,828 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L display:Conn_01x03_Male J?
-U 1 1 603F9DDA
-P 3450 2950
-F 0 "J?" H 3558 3231 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3558 3140 50  0000 C CNN
-F 2 "" H 3450 2950 50  0001 C CNN
-F 3 "~" H 3450 2950 50  0001 C CNN
-	1    3450 2950
+L power:GND #PWR0101
+U 1 1 6042E779
+P 1050 950
+F 0 "#PWR0101" H 1050 700 50  0001 C CNN
+F 1 "GND" H 1055 777 50  0000 C CNN
+F 2 "" H 1050 950 50  0001 C CNN
+F 3 "" H 1050 950 50  0001 C CNN
+	1    1050 950 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1050 950  850  950 
+$Comp
+L power:+5V #PWR0102
+U 1 1 604352F0
+P 1050 750
+F 0 "#PWR0102" H 1050 600 50  0001 C CNN
+F 1 "+5V" H 1065 923 50  0000 C CNN
+F 2 "" H 1050 750 50  0001 C CNN
+F 3 "" H 1050 750 50  0001 C CNN
+	1    1050 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  750  1050 750 
+$Comp
+L Connector:Conn_01x03_Male LS0
+U 1 1 60414DFF
+P 650 850
+F 0 "LS0" H 758 1131 50  0000 C CNN
+F 1 "LED Strip 0" H 758 1040 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 850 50  0001 C CNN
+F 3 "~" H 650 850 50  0001 C CNN
+	1    650  850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 850  850  850 
+Text Label 1050 850  2    50   ~ 0
+d0
+$Comp
+L power:GND #PWR0103
+U 1 1 60503DA4
+P 1050 1700
+F 0 "#PWR0103" H 1050 1450 50  0001 C CNN
+F 1 "GND" H 1055 1527 50  0000 C CNN
+F 2 "" H 1050 1700 50  0001 C CNN
+F 3 "" H 1050 1700 50  0001 C CNN
+	1    1050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1700 850  1700
+$Comp
+L power:+5V #PWR0104
+U 1 1 60503DAB
+P 1050 1500
+F 0 "#PWR0104" H 1050 1350 50  0001 C CNN
+F 1 "+5V" H 1065 1673 50  0000 C CNN
+F 2 "" H 1050 1500 50  0001 C CNN
+F 3 "" H 1050 1500 50  0001 C CNN
+	1    1050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1500 1050 1500
+$Comp
+L Connector:Conn_01x03_Male LS1
+U 1 1 60503DB2
+P 650 1600
+F 0 "LS1" H 758 1881 50  0000 C CNN
+F 1 "LED Strip 1" H 758 1790 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 1600 50  0001 C CNN
+F 3 "~" H 650 1600 50  0001 C CNN
+	1    650  1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1600 850  1600
+Text Label 1050 1600 2    50   ~ 0
+d1
+$Comp
+L power:GND #PWR0105
+U 1 1 605099A4
+P 1050 2450
+F 0 "#PWR0105" H 1050 2200 50  0001 C CNN
+F 1 "GND" H 1055 2277 50  0000 C CNN
+F 2 "" H 1050 2450 50  0001 C CNN
+F 3 "" H 1050 2450 50  0001 C CNN
+	1    1050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2450 850  2450
+$Comp
+L power:+5V #PWR0106
+U 1 1 605099AB
+P 1050 2250
+F 0 "#PWR0106" H 1050 2100 50  0001 C CNN
+F 1 "+5V" H 1065 2423 50  0000 C CNN
+F 2 "" H 1050 2250 50  0001 C CNN
+F 3 "" H 1050 2250 50  0001 C CNN
+	1    1050 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2250 1050 2250
+$Comp
+L Connector:Conn_01x03_Male LS2
+U 1 1 605099B2
+P 650 2350
+F 0 "LS2" H 758 2631 50  0000 C CNN
+F 1 "LED Strip 2" H 758 2540 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 2350 50  0001 C CNN
+F 3 "~" H 650 2350 50  0001 C CNN
+	1    650  2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2350 850  2350
+Text Label 1050 2350 2    50   ~ 0
+d2
+$Comp
+L power:GND #PWR0107
+U 1 1 605099BA
+P 1050 3200
+F 0 "#PWR0107" H 1050 2950 50  0001 C CNN
+F 1 "GND" H 1055 3027 50  0000 C CNN
+F 2 "" H 1050 3200 50  0001 C CNN
+F 3 "" H 1050 3200 50  0001 C CNN
+	1    1050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3200 850  3200
+$Comp
+L power:+5V #PWR0108
+U 1 1 605099C1
+P 1050 3000
+F 0 "#PWR0108" H 1050 2850 50  0001 C CNN
+F 1 "+5V" H 1065 3173 50  0000 C CNN
+F 2 "" H 1050 3000 50  0001 C CNN
+F 3 "" H 1050 3000 50  0001 C CNN
+	1    1050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  3000 1050 3000
+$Comp
+L Connector:Conn_01x03_Male LS3
+U 1 1 605099C8
+P 650 3100
+F 0 "LS3" H 758 3381 50  0000 C CNN
+F 1 "LED Strip 3" H 758 3290 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 3100 50  0001 C CNN
+F 3 "~" H 650 3100 50  0001 C CNN
+	1    650  3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3100 850  3100
+Text Label 1050 3100 2    50   ~ 0
+d3
+$Comp
+L power:GND #PWR0109
+U 1 1 60522DBE
+P 1050 3950
+F 0 "#PWR0109" H 1050 3700 50  0001 C CNN
+F 1 "GND" H 1055 3777 50  0000 C CNN
+F 2 "" H 1050 3950 50  0001 C CNN
+F 3 "" H 1050 3950 50  0001 C CNN
+	1    1050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3950 850  3950
+$Comp
+L power:+5V #PWR0110
+U 1 1 60522DC5
+P 1050 3750
+F 0 "#PWR0110" H 1050 3600 50  0001 C CNN
+F 1 "+5V" H 1065 3923 50  0000 C CNN
+F 2 "" H 1050 3750 50  0001 C CNN
+F 3 "" H 1050 3750 50  0001 C CNN
+	1    1050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  3750 1050 3750
+$Comp
+L Connector:Conn_01x03_Male LS4
+U 1 1 60522DCC
+P 650 3850
+F 0 "LS4" H 758 4131 50  0000 C CNN
+F 1 "LED Strip 4" H 758 4040 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 3850 50  0001 C CNN
+F 3 "~" H 650 3850 50  0001 C CNN
+	1    650  3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 3850 850  3850
+Text Label 1050 3850 2    50   ~ 0
+d4
+$Comp
+L power:GND #PWR0111
+U 1 1 60522DD4
+P 1050 4700
+F 0 "#PWR0111" H 1050 4450 50  0001 C CNN
+F 1 "GND" H 1055 4527 50  0000 C CNN
+F 2 "" H 1050 4700 50  0001 C CNN
+F 3 "" H 1050 4700 50  0001 C CNN
+	1    1050 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4700 850  4700
+$Comp
+L power:+5V #PWR0112
+U 1 1 60522DDB
+P 1050 4500
+F 0 "#PWR0112" H 1050 4350 50  0001 C CNN
+F 1 "+5V" H 1065 4673 50  0000 C CNN
+F 2 "" H 1050 4500 50  0001 C CNN
+F 3 "" H 1050 4500 50  0001 C CNN
+	1    1050 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  4500 1050 4500
+$Comp
+L Connector:Conn_01x03_Male LS5
+U 1 1 60522DE2
+P 650 4600
+F 0 "LS5" H 758 4881 50  0000 C CNN
+F 1 "LED Strip 5" H 758 4790 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 4600 50  0001 C CNN
+F 3 "~" H 650 4600 50  0001 C CNN
+	1    650  4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4600 850  4600
+Text Label 1050 4600 2    50   ~ 0
+d5
+$Comp
+L power:GND #PWR0113
+U 1 1 60522DEA
+P 1050 5450
+F 0 "#PWR0113" H 1050 5200 50  0001 C CNN
+F 1 "GND" H 1055 5277 50  0000 C CNN
+F 2 "" H 1050 5450 50  0001 C CNN
+F 3 "" H 1050 5450 50  0001 C CNN
+	1    1050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5450 850  5450
+$Comp
+L power:+5V #PWR0114
+U 1 1 60522DF1
+P 1050 5250
+F 0 "#PWR0114" H 1050 5100 50  0001 C CNN
+F 1 "+5V" H 1065 5423 50  0000 C CNN
+F 2 "" H 1050 5250 50  0001 C CNN
+F 3 "" H 1050 5250 50  0001 C CNN
+	1    1050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  5250 1050 5250
+$Comp
+L Connector:Conn_01x03_Male LS6
+U 1 1 60522DF8
+P 650 5350
+F 0 "LS6" H 758 5631 50  0000 C CNN
+F 1 "LED Strip 6" H 758 5540 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 5350 50  0001 C CNN
+F 3 "~" H 650 5350 50  0001 C CNN
+	1    650  5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 5350 850  5350
+Text Label 1050 5350 2    50   ~ 0
+d6
+$Comp
+L power:GND #PWR0115
+U 1 1 60522E00
+P 1050 6200
+F 0 "#PWR0115" H 1050 5950 50  0001 C CNN
+F 1 "GND" H 1055 6027 50  0000 C CNN
+F 2 "" H 1050 6200 50  0001 C CNN
+F 3 "" H 1050 6200 50  0001 C CNN
+	1    1050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6200 850  6200
+$Comp
+L power:+5V #PWR0116
+U 1 1 60522E07
+P 1050 6000
+F 0 "#PWR0116" H 1050 5850 50  0001 C CNN
+F 1 "+5V" H 1065 6173 50  0000 C CNN
+F 2 "" H 1050 6000 50  0001 C CNN
+F 3 "" H 1050 6000 50  0001 C CNN
+	1    1050 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  6000 1050 6000
+$Comp
+L Connector:Conn_01x03_Male LS7
+U 1 1 60522E0E
+P 650 6100
+F 0 "LS7" H 758 6381 50  0000 C CNN
+F 1 "LED Strip 7" H 758 6290 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 650 6100 50  0001 C CNN
+F 3 "~" H 650 6100 50  0001 C CNN
+	1    650  6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6100 850  6100
+Text Label 1050 6100 2    50   ~ 0
+d7
+$Comp
+L power:GND #PWR0117
+U 1 1 6053D6C5
+P 1900 950
+F 0 "#PWR0117" H 1900 700 50  0001 C CNN
+F 1 "GND" H 1905 777 50  0000 C CNN
+F 2 "" H 1900 950 50  0001 C CNN
+F 3 "" H 1900 950 50  0001 C CNN
+	1    1900 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 950  1700 950 
+$Comp
+L power:+5V #PWR0118
+U 1 1 6053D6CC
+P 1900 750
+F 0 "#PWR0118" H 1900 600 50  0001 C CNN
+F 1 "+5V" H 1915 923 50  0000 C CNN
+F 2 "" H 1900 750 50  0001 C CNN
+F 3 "" H 1900 750 50  0001 C CNN
+	1    1900 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 750  1900 750 
+$Comp
+L Connector:Conn_01x03_Male LS8
+U 1 1 6053D6D3
+P 1500 850
+F 0 "LS8" H 1608 1131 50  0000 C CNN
+F 1 "LED Strip 8" H 1608 1040 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 850 50  0001 C CNN
+F 3 "~" H 1500 850 50  0001 C CNN
+	1    1500 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 850  1700 850 
+Text Label 1900 850  2    50   ~ 0
+d8
+$Comp
+L power:GND #PWR0119
+U 1 1 6053D6DB
+P 1900 1700
+F 0 "#PWR0119" H 1900 1450 50  0001 C CNN
+F 1 "GND" H 1905 1527 50  0000 C CNN
+F 2 "" H 1900 1700 50  0001 C CNN
+F 3 "" H 1900 1700 50  0001 C CNN
+	1    1900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1700 1700 1700
+$Comp
+L power:+5V #PWR0120
+U 1 1 6053D6E2
+P 1900 1500
+F 0 "#PWR0120" H 1900 1350 50  0001 C CNN
+F 1 "+5V" H 1915 1673 50  0000 C CNN
+F 2 "" H 1900 1500 50  0001 C CNN
+F 3 "" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1500 1900 1500
+$Comp
+L Connector:Conn_01x03_Male LS9
+U 1 1 6053D6E9
+P 1500 1600
+F 0 "LS9" H 1608 1881 50  0000 C CNN
+F 1 "LED Strip 9" H 1608 1790 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 1600 50  0001 C CNN
+F 3 "~" H 1500 1600 50  0001 C CNN
+	1    1500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1600 1700 1600
+Text Label 1900 1600 2    50   ~ 0
+d9
+$Comp
+L power:GND #PWR0121
+U 1 1 6053D6F1
+P 1900 2450
+F 0 "#PWR0121" H 1900 2200 50  0001 C CNN
+F 1 "GND" H 1905 2277 50  0000 C CNN
+F 2 "" H 1900 2450 50  0001 C CNN
+F 3 "" H 1900 2450 50  0001 C CNN
+	1    1900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2450 1700 2450
+$Comp
+L power:+5V #PWR0122
+U 1 1 6053D6F8
+P 1900 2250
+F 0 "#PWR0122" H 1900 2100 50  0001 C CNN
+F 1 "+5V" H 1915 2423 50  0000 C CNN
+F 2 "" H 1900 2250 50  0001 C CNN
+F 3 "" H 1900 2250 50  0001 C CNN
+	1    1900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2250 1900 2250
+$Comp
+L Connector:Conn_01x03_Male LS10
+U 1 1 6053D6FF
+P 1500 2350
+F 0 "LS10" H 1608 2631 50  0000 C CNN
+F 1 "LED Strip A" H 1608 2540 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 2350 50  0001 C CNN
+F 3 "~" H 1500 2350 50  0001 C CNN
+	1    1500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2350 1700 2350
+Text Label 1900 2350 2    50   ~ 0
+dA
+$Comp
+L power:GND #PWR0123
+U 1 1 6053D707
+P 1900 3200
+F 0 "#PWR0123" H 1900 2950 50  0001 C CNN
+F 1 "GND" H 1905 3027 50  0000 C CNN
+F 2 "" H 1900 3200 50  0001 C CNN
+F 3 "" H 1900 3200 50  0001 C CNN
+	1    1900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3200 1700 3200
+$Comp
+L power:+5V #PWR0124
+U 1 1 6053D70E
+P 1900 3000
+F 0 "#PWR0124" H 1900 2850 50  0001 C CNN
+F 1 "+5V" H 1915 3173 50  0000 C CNN
+F 2 "" H 1900 3000 50  0001 C CNN
+F 3 "" H 1900 3000 50  0001 C CNN
+	1    1900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3000 1900 3000
+$Comp
+L Connector:Conn_01x03_Male LS11
+U 1 1 6053D715
+P 1500 3100
+F 0 "LS11" H 1608 3381 50  0000 C CNN
+F 1 "LED Strip B" H 1608 3290 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 3100 50  0001 C CNN
+F 3 "~" H 1500 3100 50  0001 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3100 1700 3100
+Text Label 1900 3100 2    50   ~ 0
+dB
+$Comp
+L power:GND #PWR0125
+U 1 1 6053D71D
+P 1900 3950
+F 0 "#PWR0125" H 1900 3700 50  0001 C CNN
+F 1 "GND" H 1905 3777 50  0000 C CNN
+F 2 "" H 1900 3950 50  0001 C CNN
+F 3 "" H 1900 3950 50  0001 C CNN
+	1    1900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3950 1700 3950
+$Comp
+L power:+5V #PWR0126
+U 1 1 6053D724
+P 1900 3750
+F 0 "#PWR0126" H 1900 3600 50  0001 C CNN
+F 1 "+5V" H 1915 3923 50  0000 C CNN
+F 2 "" H 1900 3750 50  0001 C CNN
+F 3 "" H 1900 3750 50  0001 C CNN
+	1    1900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3750 1900 3750
+$Comp
+L Connector:Conn_01x03_Male LS12
+U 1 1 6053D72B
+P 1500 3850
+F 0 "LS12" H 1608 4131 50  0000 C CNN
+F 1 "LED Strip C" H 1608 4040 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 3850 50  0001 C CNN
+F 3 "~" H 1500 3850 50  0001 C CNN
+	1    1500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3850 1700 3850
+Text Label 1900 3850 2    50   ~ 0
+dC
+$Comp
+L power:GND #PWR0127
+U 1 1 6053D733
+P 1900 4700
+F 0 "#PWR0127" H 1900 4450 50  0001 C CNN
+F 1 "GND" H 1905 4527 50  0000 C CNN
+F 2 "" H 1900 4700 50  0001 C CNN
+F 3 "" H 1900 4700 50  0001 C CNN
+	1    1900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4700 1700 4700
+$Comp
+L power:+5V #PWR0128
+U 1 1 6053D73A
+P 1900 4500
+F 0 "#PWR0128" H 1900 4350 50  0001 C CNN
+F 1 "+5V" H 1915 4673 50  0000 C CNN
+F 2 "" H 1900 4500 50  0001 C CNN
+F 3 "" H 1900 4500 50  0001 C CNN
+	1    1900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4500 1900 4500
+$Comp
+L Connector:Conn_01x03_Male LS13
+U 1 1 6053D741
+P 1500 4600
+F 0 "LS13" H 1608 4881 50  0000 C CNN
+F 1 "LED Strip D" H 1608 4790 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 4600 50  0001 C CNN
+F 3 "~" H 1500 4600 50  0001 C CNN
+	1    1500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4600 1700 4600
+Text Label 1900 4600 2    50   ~ 0
+dD
+$Comp
+L power:GND #PWR0129
+U 1 1 6053D749
+P 1900 5450
+F 0 "#PWR0129" H 1900 5200 50  0001 C CNN
+F 1 "GND" H 1905 5277 50  0000 C CNN
+F 2 "" H 1900 5450 50  0001 C CNN
+F 3 "" H 1900 5450 50  0001 C CNN
+	1    1900 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5450 1700 5450
+$Comp
+L power:+5V #PWR0130
+U 1 1 6053D750
+P 1900 5250
+F 0 "#PWR0130" H 1900 5100 50  0001 C CNN
+F 1 "+5V" H 1915 5423 50  0000 C CNN
+F 2 "" H 1900 5250 50  0001 C CNN
+F 3 "" H 1900 5250 50  0001 C CNN
+	1    1900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5250 1900 5250
+$Comp
+L Connector:Conn_01x03_Male LS14
+U 1 1 6053D757
+P 1500 5350
+F 0 "LS14" H 1608 5631 50  0000 C CNN
+F 1 "LED Strip E" H 1608 5540 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 5350 50  0001 C CNN
+F 3 "~" H 1500 5350 50  0001 C CNN
+	1    1500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5350 1700 5350
+Text Label 1900 5350 2    50   ~ 0
+dE
+$Comp
+L power:GND #PWR0131
+U 1 1 6053D75F
+P 1900 6200
+F 0 "#PWR0131" H 1900 5950 50  0001 C CNN
+F 1 "GND" H 1905 6027 50  0000 C CNN
+F 2 "" H 1900 6200 50  0001 C CNN
+F 3 "" H 1900 6200 50  0001 C CNN
+	1    1900 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6200 1700 6200
+$Comp
+L power:+5V #PWR0132
+U 1 1 6053D766
+P 1900 6000
+F 0 "#PWR0132" H 1900 5850 50  0001 C CNN
+F 1 "+5V" H 1915 6173 50  0000 C CNN
+F 2 "" H 1900 6000 50  0001 C CNN
+F 3 "" H 1900 6000 50  0001 C CNN
+	1    1900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6000 1900 6000
+$Comp
+L Connector:Conn_01x03_Male LS15
+U 1 1 6053D76D
+P 1500 6100
+F 0 "LS15" H 1608 6381 50  0000 C CNN
+F 1 "LED Strip F" H 1608 6290 50  0000 C CNN
+F 2 "display:strip_connector_hole" H 1500 6100 50  0001 C CNN
+F 3 "~" H 1500 6100 50  0001 C CNN
+	1    1500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6100 1700 6100
+Text Label 1900 6100 2    50   ~ 0
+dF
+$Comp
+L display:Arduino_Mega2560_Shield_redux XA1
+U 1 1 6057C24B
+P 9250 3150
+F 0 "XA1" H 9250 5637 60  0000 C CNN
+F 1 "Arduino_Mega2560_Shield_redux" H 9250 5531 60  0000 C CNN
+F 2 "display:Arduino_Mega2560_Shield_redux" H 9950 5900 60  0001 C CNN
+F 3 "" H 9950 5900 60  0001 C CNN
+	1    9250 3150
+	1    0    0    -1  
+$EndComp
+Text Label 7950 1000 0    50   ~ 0
+d0
+Text Label 7950 1100 0    50   ~ 0
+d1
+Text Label 7950 2000 0    50   ~ 0
+dE
+Text Label 7950 2100 0    50   ~ 0
+dF
+Text Label 10550 1000 2    50   ~ 0
+d2
+Text Label 10550 1100 2    50   ~ 0
+d3
+Text Label 10550 1200 2    50   ~ 0
+d4
+Text Label 10550 1300 2    50   ~ 0
+d5
+Text Label 10550 1400 2    50   ~ 0
+d6
+Text Label 10550 1500 2    50   ~ 0
+d7
+Text Label 10550 1600 2    50   ~ 0
+d8
+Text Label 10550 1700 2    50   ~ 0
+d9
+Text Label 10550 1800 2    50   ~ 0
+dA
+Text Label 10550 1900 2    50   ~ 0
+dB
+Text Label 10550 2000 2    50   ~ 0
+dC
+Text Label 10550 2100 2    50   ~ 0
+dD
+$Comp
+L power:GND #PWR0133
+U 1 1 6059D446
+P 7750 4600
+F 0 "#PWR0133" H 7750 4350 50  0001 C CNN
+F 1 "GND" H 7755 4427 50  0000 C CNN
+F 2 "" H 7750 4600 50  0001 C CNN
+F 3 "" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4600 7950 4600
+Wire Wire Line
+	7950 4800 7950 4700
+Wire Wire Line
+	7950 4700 7950 4600
+Connection ~ 7950 4700
+Connection ~ 7950 4600
+Wire Wire Line
+	7950 4600 7950 4500
+Wire Wire Line
+	7950 4500 7950 4400
+Connection ~ 7950 4500
+$Comp
+L power:+5V #PWR0134
+U 1 1 605A41C8
+P 7750 5200
+F 0 "#PWR0134" H 7750 5050 50  0001 C CNN
+F 1 "+5V" H 7765 5373 50  0000 C CNN
+F 2 "" H 7750 5200 50  0001 C CNN
+F 3 "" H 7750 5200 50  0001 C CNN
+	1    7750 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5200 7950 5200
+Wire Wire Line
+	7950 5000 7950 5100
+Wire Wire Line
+	7950 5100 7950 5200
+Connection ~ 7950 5100
+Connection ~ 7950 5200
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 605FC27C
+P 5100 3300
+F 0 "J1" H 5150 4417 50  0000 C CNN
+F 1 "Raspberry Pi" H 5150 4326 50  0000 C CNN
+F 2 "Arduino:raspberrypi_2_3" H 5100 3300 50  0001 C CNN
+F 3 "~" H 5100 3300 50  0001 C CNN
+	1    5100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0135
+U 1 1 60602221
+P 5600 2400
+F 0 "#PWR0135" H 5600 2250 50  0001 C CNN
+F 1 "+5V" H 5615 2573 50  0000 C CNN
+F 2 "" H 5600 2400 50  0001 C CNN
+F 3 "" H 5600 2400 50  0001 C CNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2400 5400 2400
+Wire Wire Line
+	5400 2400 5400 2500
+Connection ~ 5400 2400
+$Comp
+L power:GND #PWR0136
+U 1 1 60608751
+P 4750 4300
+F 0 "#PWR0136" H 4750 4050 50  0001 C CNN
+F 1 "GND" H 4755 4127 50  0000 C CNN
+F 2 "" H 4750 4300 50  0001 C CNN
+F 3 "" H 4750 4300 50  0001 C CNN
+	1    4750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4300 4900 4300
+Wire Wire Line
+	4750 4300 4750 3600
+Wire Wire Line
+	4750 3600 4900 3600
+Connection ~ 4750 4300
+Wire Wire Line
+	4750 3600 4750 2800
+Wire Wire Line
+	4750 2800 4900 2800
+Connection ~ 4750 3600
+$Comp
+L power:GND #PWR0137
+U 1 1 6060D8D3
+P 5700 4000
+F 0 "#PWR0137" H 5700 3750 50  0001 C CNN
+F 1 "GND" H 5705 3827 50  0000 C CNN
+F 2 "" H 5700 4000 50  0001 C CNN
+F 3 "" H 5700 4000 50  0001 C CNN
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4000 5400 4000
+Wire Wire Line
+	5400 3800 5700 3800
+Wire Wire Line
+	5700 3800 5700 4000
+Connection ~ 5700 4000
+Wire Wire Line
+	5700 3800 5700 3300
+Wire Wire Line
+	5700 3300 5400 3300
+Connection ~ 5700 3800
+Wire Wire Line
+	5700 3300 5700 3000
+Wire Wire Line
+	5700 3000 5400 3000
+Connection ~ 5700 3300
+Wire Wire Line
+	5700 3000 5700 2600
+Wire Wire Line
+	5700 2600 5400 2600
+Connection ~ 5700 3000
 $EndSCHEMATC
