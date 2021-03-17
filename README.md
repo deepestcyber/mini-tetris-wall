@@ -25,6 +25,8 @@ der Rahmen zu ist.
 * logic shifter 5V->3V3 für Leitungen Arduino->Raspi
 * Status led leiste? Ist im Original ein weitere strip
 * Wollen wir LAN nach draußen legen? Oder USB vom Raspi?
+* DeepCyber Logo auf Platine!
+* Name, revision, url des repos auf platine
 
 # Löten?
 Ich höre, JLCPCB macht einseitige Bestückung für Bauteile, die sie haben. Da wir nur Stift- und Buchsenleisten haben, könnte das was werden.
