@@ -17,15 +17,19 @@ getrennt zu bleiben! Daten für Größe könnte man vermutlich aus den Laserdate
 der Rahmen zu ist.
 
 # TODOs:
-* Footprint für SMD-Shild Arduino Mega
-* Footprint für SMD-Shild Raspi
-* Stiftleisten oder ähnliches für alle Switches
-    gute idee peer von damals
+* ~~Footprint für SMD-Shild Arduino Mega~~
+* ~~Footprint für SMD-Shild Raspi~~
+* Stiftleisten fuer alle Switches
+* Stiftleisten fuer Status-LED strips
+* Power Button
+* USB-Port vom RasPi nach aussen
+* USB-C power input?
+    * USB-C power inlet with negotiation
+* Lueftung fuer StepDown converter einplanen
+    * Power budget fuer LED strips ist 5V * 24 * 16 * 60mA (~= 115W)
 * ~~Dicke! Powerlines~~
 * ~~SPI und ready line~~
-* logic shifter 5V->3V3 für Leitungen Arduino->Raspi
-* Status led leiste? Ist im Original ein weitere strip
-* Wollen wir LAN nach draußen legen? Oder USB vom Raspi?
+* logic level shifter 5V->3V3 für Leitungen Arduino->Raspi
 * DeepCyber Logo auf Platine!
 * Name, revision, url des repos auf platine
 
