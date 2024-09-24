@@ -25,7 +25,8 @@ der Rahmen zu ist.
 * USB-Port vom RasPi nach aussen
 * USB-C power input?
     * USB-C power inlet with negotiation
-* Lueftung fuer StepDown converter einplanen
+    * https://www.komputer.de/zen/index.php?main_page=product_info&products_id=635&zenid=bo7534ob5tfdgg7ghbn8ceoa73
+* Lueftung fuer StepDown converter einplanen?
     * Power budget fuer LED strips ist 5V * 24 * 16 * 60mA (~= 115W)
 * ~~Dicke! Powerlines~~
 * ~~SPI und ready line~~
